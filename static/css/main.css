@@ -8,23 +8,41 @@ html, body {
 
 .hero {
 	background-color: #1b1b1b;
-	background-image: url("static/img/pattern.png");
-	background-repeat: repeat-y;
-	min-height: 560px
+	background-image: url("../img/pattern.png");
+	background-repeat: repeat-y repeat-x;
+	min-height: 530px
+}
+
+.subhero {
+	background-color: #1b1b1b;
+	background-image: url("../img/pattern.png");
+	background-repeat: repeat-y repeat-x;
 }
 
 h1 {
 	font-size: 60px;
 	font-weight:100;
 	color: #fff;
+	padding-bottom:10px;
 }
 
 h2 {
 	font-size: 22px;
 	font-weight:100;
 	color: #fff;
+	line-height:1.5em;
 }
 
+h3 {
+	font-size:18px;
+	color:#fff;
+}
 .highlight {
 	background-color: #ff7030;
 } 
+
+.footnote {
+	background-color: #929292;
+	padding: 1px 10px 2px 10px;
+	margin: 0px 50% 0px 0px;
+}

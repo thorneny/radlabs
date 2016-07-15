@@ -7,5 +7,24 @@ html, body {
       font-family: "MetaSerif-Book", "Helvetica"; } }
 
 .hero {
-	background-color: #25caa5
+	background-color: #1b1b1b;
+	background-image: url("static/img/pattern.png");
+	background-repeat: repeat-y;
+	min-height: 560px
 }
+
+h1 {
+	font-size: 60px;
+	font-weight:100;
+	color: #fff;
+}
+
+h2 {
+	font-size: 22px;
+	font-weight:100;
+	color: #fff;
+}
+
+.highlight {
+	background-color: #ff7030;
+} 

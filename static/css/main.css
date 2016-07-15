@@ -1,0 +1,11 @@
+html, body {
+  background: #fff;
+  font-family: "MetaSerif-Book", "Helvetica";
+  font-weight: 100; }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    html, body {
+      font-family: "MetaSerif-Book", "Helvetica"; } }
+
+.hero {
+	background-color: #25caa5
+}

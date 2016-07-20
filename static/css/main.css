@@ -10,7 +10,7 @@ html, body {
 	background-color: #1b1b1b;
 	background-image: url("../img/pattern.png");
 	background-repeat: repeat-y repeat-x;
-	min-height: 530px
+	min-height: 530px;
 }
 
 .subhero {
@@ -55,30 +55,84 @@ h3 {
 .careers h1 {
 	font-size: 36px;
 	color: #1b1b1b;
-	text-align: center;
-
+	text-align: left;
 }
 
 .careers h3 {
 	color: #1b1b1b;
-	text-align: center;	
+	text-align: left;
+	line-height: 1.5em;
 }
 
-.careers-table {
-	margin: 50px 0px 50px 0px;
-	min-width: 100%;
-}
-
-.careers-table tr {
-	font-size: 20px;
-	font-family: sans-serif;
-	line-height: 2.5em;
-	min-width: 100%;
-}
-
-.careers-table td {
-	min-width: 30%;
+.card {
+	margin: 20px 0px 20px 0px;
 	background-color: #fff;
-	border:	1px solid #dedede;
-	margin:10px;
+	padding: 20px;
+	border: 1px solid #dedede;
+	border-radius: 0px;
+	text-align:left;
+	font-family: sans-serif;
 }
+
+.card h2 {
+	color: #ff7030;
+	font-size: 24px;
+	font-family: "MetaSerif-Book";
+}
+
+.card a {
+	text-decoration: none;
+	color: #1b1b1b;
+}
+
+.navbar-simple {
+	background-color: #fff;
+	height: 60px;
+	border-bottom: 1px solid #dedede;
+}
+
+.navbar-simple h1 {
+	font-size: 30px;
+	color: #1b1b1b;
+	padding: 0px 5% 0px 5%;
+}
+
+.navbar-simple a {
+	text-decoration: none;
+}
+
+.job {
+	padding: 50px;
+	background-color: #f9f9f9;
+}
+
+.headline {
+	padding: 50px 20% 20px 20%;
+	text-align: center;
+}
+
+.headline h1 {
+	color: #1b1b1b;
+	font-size: 36px;
+}
+
+.headline h3 {
+	color: #1b1b1b;
+	font-family: sans-serif;
+	line-height: 1.5em;
+	font-weight: 100;
+}
+
+.jobdescription {
+	line-height: 1.5em;
+	text-align: left;
+	padding: 10px 20% 10px 20%;
+	font-size: 1.1em; 
+}
+
+.jobdescription h4 {
+	padding-top: 20px;
+}
+
+
+

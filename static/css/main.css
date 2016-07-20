@@ -26,7 +26,7 @@ h3 {
 }
 
 .hero {
-	background-color: #2a2b35;
+	background-color: #0c0e15;
 	/*--background-image: url("../img/pattern.png");--*/
 	background-repeat: repeat-y repeat-x;
 	min-height: 530px;
@@ -77,6 +77,11 @@ h3 {
 	color: #1b1b1b;
 	text-align: left;
 	line-height: 1.5em;
+}
+
+.careers a {
+	text-decoration: none;
+	color: #1b1b1b;
 }
 
 .card {

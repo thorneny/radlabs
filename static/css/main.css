@@ -1,10 +1,10 @@
 html, body {
   background: #fff;
-  font-family: "MetaSerif-Book", "Helvetica";
+  font-family: "MetaSerif-Book", "Georgia";
   font-weight: 100; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     html, body {
-      font-family: "MetaSerif-Book", "Helvetica"; } }
+      font-family: "MetaSerif-Book", "Georgia"; } }
 
 h1 {
 	font-size: 60px;

@@ -14,7 +14,7 @@
 </head>
 <body>
 	<div class="navbar-simple">
-		<a href="index"><h1><span><img src="../static/img/rad-icon.png" style="max-height:38px; padding: 0px 8px 5px 0px"></span>Radicle</h1></a>
+		<a href="../index"><h1><span><img src="../static/img/rad-icon.png" style="max-height:38px; padding: 0px 8px 5px 0px"></span>Radicle</h1></a>
 	</div>
 	<div class="job">		
 		<div class="container">
@@ -22,7 +22,7 @@
 				<div class="col-md-12">
 					<div class="headline">
 						<img src="../static/img/icons/asterisk-1.png" style="max-height:30px; text-align: center">
-						<h1>Summery Associates</h1>
+						<h1>Summer Associates</h1>
 						<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu</h3>
 					</div>
 					<hr>
@@ -48,6 +48,50 @@
 							<li>Wants to build something</li>
 							<li>Is fun</li>
 						</ul>
+					</div>
+					<hr>
+					<div class="apply">
+						<h2>Submit application</h2>
+						<form action="https://formspree.io/stu@radicle-labs.com" method="POST">
+							<ul>
+							    <li class="apply-question">
+							    	<label>
+							    		<div class="apply-label">
+							    			Full name
+							    		</div>
+							    		<div class="apply-field">
+							    			<input type="text" name="name" placeholder="" />
+							    		</div>
+							    	</label>
+							    </li>
+							    <li class="apply-question">
+							    	<label>
+							    		<div class="apply-label">
+							    			Email address
+							    		</div>
+							    		<div class="apply-field">
+							    			<input type="email" name="_replyto" placeholder="jane@gmail.com" />
+							    		</div>
+							    	</label>
+							    </li>
+							    <li class="apply-question">
+							    	<label>
+							    		<div class="apply-label">
+							    			Linkedin Profile
+							    		</div>
+							    		<div class="apply-field">
+							    			<input type="url" name="url" placeholder="linkedin.com/in/name" />
+							    		</div>
+							    	</label>
+							    </li>
+						  	</ul>
+						    <div class="apply-submit">
+						    	<button type="submit" class="apply-button">Submit</button>
+						    </div>
+
+						    <input type="hidden" name="_next" value="thankyou" />
+						    <input type="text" name="_gotcha" style="display:none" />
+						</form>
 					</div>
 				</div>
 			</div>

@@ -121,6 +121,27 @@ h3 {
 	text-decoration: none;
 }
 
+.beta {
+	background-color: #f9f9f9;
+	text-align: center;
+	padding: 50px;
+}
+
+.beta h2 {
+	color: #1b1b1b;
+	font-size: 80px;
+	padding: 0 0 50px 0;
+	line-height: 1.2em;
+}
+
+.beta h4 {
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 100;
+	letter-spacing: 0.2em;
+	padding-bottom: 10px;
+}
+
 .job {
 	padding: 50px;
 	background-color: #f9f9f9;

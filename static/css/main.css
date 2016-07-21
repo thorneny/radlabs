@@ -27,9 +27,10 @@ h3 {
 
 .hero {
 	background-color: #0c0e15;
-	/*--background-image: url("../img/pattern.png");--*/
-	background-repeat: repeat-y repeat-x;
+	background-image: url("../img/roots.png");
+	background-repeat: no-repeat;
 	min-height: 530px;
+	background-position: 0% 0%;
 }
 
 .hero h1 {

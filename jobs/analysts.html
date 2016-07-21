@@ -49,6 +49,50 @@
 							<li>Is fun</li>
 						</ul>
 					</div>
+					<hr>
+					<div class="apply">
+						<h2>Submit application</h2>
+						<form action="https://formspree.io/stu@radicle-labs.com" method="POST">
+							<ul>
+							    <li class="apply-question">
+							    	<label>
+							    		<div class="apply-label">
+							    			Full name
+							    		</div>
+							    		<div class="apply-field">
+							    			<input type="text" name="name" placeholder="" />
+							    		</div>
+							    	</label>
+							    </li>
+							    <li class="apply-question">
+							    	<label>
+							    		<div class="apply-label">
+							    			Email address
+							    		</div>
+							    		<div class="apply-field">
+							    			<input type="email" name="_replyto" placeholder="jane@gmail.com" />
+							    		</div>
+							    	</label>
+							    </li>
+							    <li class="apply-question">
+							    	<label>
+							    		<div class="apply-label">
+							    			Linkedin Profile
+							    		</div>
+							    		<div class="apply-field">
+							    			<input type="url" name="url" placeholder="linkedin.com/in/name" />
+							    		</div>
+							    	</label>
+							    </li>
+						  	</ul>
+						    <div class="apply-submit">
+						    	<button type="submit" class="apply-button">Submit</button>
+						    </div>
+
+						    <input type="hidden" name="_next" value="../thankyou/apply" />
+						    <input type="text" name="_gotcha" style="display:none" />
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>

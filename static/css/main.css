@@ -212,7 +212,6 @@ h3 {
 	display: inline-block;
 	border: 1px solid #dedede;
 	padding: 0px 4% 0px 4%;
-	font-size: 
 }
 
 .search h4 {
@@ -299,6 +298,7 @@ h3 {
 	border: 1px solid #dedede;
 	padding: 10px;
 	font-weight: 100;
+	text-align: center;
 }
 
 .apply-submit {
@@ -343,3 +343,49 @@ h3 {
 	font-size: 14px;
 	font-family: sans-serif;
 }
+
+/* MOBILE */
+@media (max-width: 599px) {
+	.search {
+		padding: 30px 0px 50px 0px;
+	}
+	.search-enter {
+		width: 100%;
+		margin-right: 0px;
+	}
+	.search-button {
+		max-width: 100%;
+		margin-top: 20px;
+	}
+	.blog {
+		padding: 50px 0px 50px 0px;
+	}
+	.blog h2 {
+		font-size: 42px;
+	}
+	.blog h3 {
+		padding: 0px 0px 20px 0px;
+	}
+	.careers {
+		padding: 0px;
+	}
+	.card {
+		margin: 35px 0px 20px 0px;
+	}
+	.submit {
+		;
+	}
+	.submit input {
+		font-size: 24px;
+		text-align: center;
+	}
+}
+
+/* TABLET */
+@media (max-width: 979px; min-width: 599px) {
+
+
+}
+
+
+

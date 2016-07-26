@@ -379,7 +379,28 @@ h3 {
 		font-size: 24px;
 		text-align: center;
 	}
-}
+	.job {
+		padding: 10px;
+	}
+	.headline {
+		padding: 50px 2% 20px 2%;
+	}
+	.jobdescription {
+		padding: 10px 2% 10px 2%;
+	}
+	.apply {
+		padding: 10px 2% 10px 2%;
+	}
+	.apply-label {
+		padding-bottom: 10px;
+	}
+	.apply-field {
+		padding-left: 0px;
+		width: 100%;
+	}
+	.apply-field input {
+		text-align: left;
+	}
 
 /* TABLET */
 @media (max-width: 979px; min-width: 599px) {

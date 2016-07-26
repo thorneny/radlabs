@@ -401,11 +401,59 @@ h3 {
 	.apply-field input {
 		text-align: left;
 	}
-
+}
 /* TABLET */
-@media (max-width: 979px; min-width: 599px) {
-
-
+@media (min-width: 600px) and (max-width: 979px) {
+	.search {
+		padding: 30px 0px 50px 0px;
+	}
+	.search-enter {
+		width: 100%;
+	}
+	.search-button {
+		max-width: 100%;
+		margin-top: 20px;
+	}
+	.blog {
+		padding: 50px 0px 50px 0px;
+	}
+	.blog h2 {
+		font-size: 72px;
+	}
+	.blog h3 {
+		padding: 0px 0px 20px 0px;
+	}
+	.careers {
+		padding: 0px;
+	}
+	.card {
+		margin: 35px 0px 20px 0px;
+	}
+	.submit {
+		padding: 30px 0px 30px 0px;
+	}
+	.job {
+		padding: 50px 0px 50px 0px;
+	}
+	.headline {
+		padding: 50px 2% 20px 2%;
+	}
+	.jobdescription {
+		padding: 10px 10% 10px 10%;
+	}
+	.apply {
+		padding: 10px 10% 10px 10%;
+	}
+	.apply-label {
+		padding-bottom: 10px;
+	}
+	.apply-field {
+		padding-left: 0px;
+		width: 100%;
+	}
+	.apply-field input {
+		text-align: left;
+	}
 }
 
 

@@ -195,6 +195,7 @@ h3 {
 	color: #fff;
 	line-height: 2.0em;
 	width: 100%;
+	outline: none;
 }
 
 .search-enter {
@@ -212,6 +213,12 @@ h3 {
 	display: inline-block;
 	border: 1px solid #dedede;
 	padding: 0px 4% 0px 4%;
+	outline: none;
+}
+
+.search-button:active {
+	background-color: #fff;
+	color: #151b30;
 }
 
 .search h4 {

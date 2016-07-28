@@ -122,7 +122,7 @@ h3 {
 .blog {
 	background-color: #f9f9f9;
 	text-align: center;
-	padding: 50px;
+	padding: 50px 50px 0px 50px;
 }
 
 .blog h2 {
@@ -235,18 +235,9 @@ h3 {
 }
 
 .submit {
-	background-color: #151b30;
+	background-color: #f9f9f9;
 	text-align: center;
 	padding: 30px;
-	outline: none;
-}
-
-.submit input {
-	border: none;
-	background: transparent;
-	font-size: 36px;
-	color: #fff;
-	line-height: 2.0em;
 	outline: none;
 }
 
@@ -255,8 +246,53 @@ h3 {
 	font-size: 14px;
 	font-weight: 100;
 	letter-spacing: 0.2em;
-	padding-bottom: 10px;
 	color: #ff7030;
+}
+
+.submit h2 {
+	color: #1b1b1b;
+	padding: 10px;
+}
+
+.submit-input {
+	border: 1px solid #dedede;
+	display: inline-block;
+	padding: 0px 20px 0px 20px;
+	margin: 10px 10px 30px 10px;
+	min-width: 40%;
+	text-align: left;
+}
+
+.submit-button {
+	border: 1px solid #1b1b1b;
+	display: inline-block;
+	padding: 0px 20px 0px 20px;
+	margin: 10px 10px 30px 10px;
+}
+
+.submit-button:active {
+	background-color: #1b1b1b;;
+}
+
+.submit-button:hover {
+	background-color: #1b1b1b;;
+}
+
+.submit input {
+	border: none;
+	background: transparent;
+	font-size: 24px;
+	color: #1b1b1b;
+	line-height: 2.0em;
+	outline: none;
+}
+
+.submit input:active {
+	color: #ffffff;
+}
+
+.submit input:hover {
+	color: #ffffff;
 }
 
 .apply {

@@ -363,6 +363,10 @@ h3 {
 	font-family: sans-serif;
 }
 
+.boxed {
+  border: 1px solid green ;
+}
+
 /* MOBILE */
 @media (max-width: 599px) {
 	.search {

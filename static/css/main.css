@@ -218,6 +218,9 @@ h3 {
 
 .search-button:active {
 	background-color: #fff;
+}
+
+.search input:active {
 	color: #151b30;
 }
 

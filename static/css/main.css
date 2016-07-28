@@ -364,7 +364,7 @@ h3 {
 }
 
 .boxed {
-  border: 1px solid green; 
+  border: 1px #fff; 
   background: #fff;
 }
 

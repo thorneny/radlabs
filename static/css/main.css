@@ -198,6 +198,10 @@ h3 {
 	outline: none;
 }
 
+.search input:active {
+	color: #151b30;
+}
+
 .search-enter {
 	display: inline-block;
 	position: relative;
@@ -205,6 +209,7 @@ h3 {
 	padding: 0px 2px 5px 0;
 	border-bottom: 1px solid #dedede;
 	margin-right: 10%;
+	outline: none;
 }
 
 .search-button {
@@ -220,10 +225,6 @@ h3 {
 	background-color: #fff;
 }
 
-.search input:active {
-	color: #151b30;
-}
-
 .search h4 {
 	font-family: sans-serif;
 	font-size: 14px;
@@ -237,6 +238,7 @@ h3 {
 	background-color: #151b30;
 	text-align: center;
 	padding: 30px;
+	outline: none;
 }
 
 .submit input {
@@ -245,6 +247,7 @@ h3 {
 	font-size: 36px;
 	color: #fff;
 	line-height: 2.0em;
+	outline: none;
 }
 
 .submit h4 {
@@ -283,6 +286,7 @@ h3 {
 
 .apply-question label {
 	width: 100%;
+	outline: none;
 }
 
 .apply-label {
@@ -293,6 +297,7 @@ h3 {
 	display: inline-block;
 	font-weight: 100;
 	font-family: "MetaSerif-Book";
+	outline: none;
 }
 
 .apply-field {
@@ -301,6 +306,7 @@ h3 {
 	position: relative;
 	display: inline-block;
 	font-weight: 100;
+	outline: none;
 }
 
 .apply-field input {
@@ -309,12 +315,14 @@ h3 {
 	padding: 10px;
 	font-weight: 100;
 	text-align: left;
+	outline: none;
 }
 
 .apply-submit {
 	padding: 20px 0px 0px 0px;
 	text-align:left;
 	border-top: 1px solid #dedede;
+	outline: none;
 }
 
 .apply-button {
@@ -334,6 +342,7 @@ h3 {
 	vertical-align: middle;
 	cursor: pointer;
 	border: 1px solid;
+	outline:none;
 }
 
 .personas {

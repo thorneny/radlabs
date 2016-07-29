@@ -287,11 +287,9 @@ h3 {
 	outline: none;
 }
 
-.submit input:active {
-	color: #ffffff;
-}
 
-.submit input:hover {
+
+.submit-button input:hover {
 	color: #ffffff;
 }
 

@@ -398,6 +398,9 @@ h3 {
 }
 
 .boxed {
+width: 600px;
+padding: 5px;
+text-align: center;
   border: 1px #fff; 
   background: #fff;
 }
